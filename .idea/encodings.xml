@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-base/oa-base-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-base/oa-base-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-base/oa-base-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-department" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-department/oa-department-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-department/oa-department-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-department/oa-department-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-department/oa-department-service-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-department/oa-department-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-department/oa-department-service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-rbac" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-rbac/oa-rbac-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-rbac/oa-rbac-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oa-sso" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oa-base-entity" />
+        <module name="oa-base-service-api" />
+        <module name="oa-base-service-impl" />
+        <module name="oa-common" />
+        <module name="oa-filter" />
+        <module name="oa-generator" />
+        <module name="oa-rbac-entity" />
+        <module name="oa-rbac-mapper" />
+        <module name="oa-rbac-service-api" />
+        <module name="oa-rbac-service-consumer" />
+        <module name="oa-rbac-service-impl" />
+        <module name="oa-rbac-service-provider" />
+        <module name="oa-sso" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oa-base-consumer-web" target="1.7" />
+      <module name="oa-base-mapper" target="1.7" />
+      <module name="oa-base-provider-web" target="1.7" />
+      <module name="oa-department-mapper" target="1.7" />
+      <module name="oa-department-service-api" target="1.7" />
+      <module name="oa-department-service-consumer" target="1.7" />
+      <module name="oa-department-service-impl" target="1.7" />
+      <module name="oa-department-service-provider" target="1.7" />
+      <module name="oa-sso-core" target="1.7" />
+      <module name="oa-sso-service-provider" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

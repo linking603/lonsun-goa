@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/oa-department/oa-department-service-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/oa-department/oa-department-service-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/oa-sso" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/oa-base/oa-base-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-sso/oa-sso-core/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-sso/oa-sso-service-provider/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="true" project-jdk-name="1.9" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

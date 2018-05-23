@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="oa-department-service-consumer:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12b8e088-d101-425e-b020-beb2bccf98f5" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/oa-generator/target/" />
+    <ignored path="$PROJECT_DIR$/oa-common/target/" />
+    <ignored path="$PROJECT_DIR$/oa-base/target/" />
+    <ignored path="$PROJECT_DIR$/oa-base/oa-base-entity/target/" />
+    <ignored path="$PROJECT_DIR$/oa-base/oa-base-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/oa-base/oa-base-service/target/" />
+    <ignored path="$PROJECT_DIR$/oa-base/oa-base-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/oa-base/oa-base-service-web/target/" />
+    <ignored path="$PROJECT_DIR$/oa-base/oa-base-consumer-web/target/" />
+    <ignored path="$PROJECT_DIR$/oa-base/oa-base-provider-web/target/" />
+    <ignored path="$PROJECT_DIR$/oa-department/target/" />
+    <ignored path="$PROJECT_DIR$/oa-department/oa-department-entity/target/" />
+    <ignored path="$PROJECT_DIR$/oa-department/oa-department-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/oa-department/oa-department-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/oa-department/oa-department-service-impl/target/" />
+    <ignored path="$PROJECT_DIR$/oa-department/oa-department-service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/oa-department/oa-department-service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/oa-sso/target/" />
+    <ignored path="$PROJECT_DIR$/oa-sso/oa-sso-core/target/" />
+    <ignored path="$PROJECT_DIR$/oa-sso/oa-sso-service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/oa-base/oa-base-service-impl/target/" />
+    <ignored path="$PROJECT_DIR$/oa-filter/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-department-entity/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-department-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-department-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-department-service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-department-service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-department-service-impl/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-rbac-entity/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-rbac-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-rbac-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-rbac-service-impl/target/" />
+    <ignored path="$PROJECT_DIR$/oa-rbac/oa-rbac-service-provider/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SsoFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa-filter/src/main/java/cn/lonsun/filter/SsoFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SsoLoginUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa-filter/src/main/java/cn/lonsun/util/SsoLoginUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-dubbo.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/resources/spring/applicationContext-dubbo.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/util/object/JsonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1178">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/java/cn/lonsun/controller/DepartmentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-dubbo-reference.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/resources/spring/applicationContext-dubbo-reference.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisClientServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/java/cn/lonsun/service/impl/JedisClientServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa-sso/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>my.oa</find>
+      <find>provided</find>
+      <find>com.xxl.sso</find>
+      <find>SSO_LOGOUT_PATH</find>
+      <find>Jedis</find>
+      <find>jedis</find>
+      <find>String result</find>
+      <find>shardedJedis.close();</find>
+      <find>return result;</find>
+      <find>logger.info(&quot;jedis success to &quot;);</find>
+      <find>private</find>
+      <find>jedisClientUtil</find>
+      <find>department</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>cn.lonsun</replace>
+      <replace>shardedJedis</replace>
+      <replace>result</replace>
+      <replace>logger.info(&quot;jedis success to &quot;+result);</replace>
+      <replace>JedisClientUtil.jedisClientUtil</replace>
+      <replace>jedisClientServiceImpl</replace>
+      <replace>rbac</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/jedis/JedisClientUtil.java" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-consumer/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/oa-base/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-common/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-provider/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/oa-base/oa-base-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/resources/spring/applicationContext-base-redis-config.xml" />
+        <option value="$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/resources/spring/applicationContext-base-redis-jedispool.xml" />
+        <option value="$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/resources/spring/applicationContext-base-redis-sharedjedispool.xml" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-provider/src/main/resources/spring/applicationContext-department-redis.xml" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-provider/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/util/httpclient/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-provider/src/test/java/TestRedis.java" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-consumer/src/main/java/cn/lonsun/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/filter/SsoFilter.java" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-consumer/src/main/resources/spring/applicationContext-dubbo.xml" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-provider/src/main/resources/spring/applicationContext-dubbo.xml" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-entity/src/main/java/cn/lonsun/entity/Department.java" />
+        <option value="$PROJECT_DIR$/oa-generator/src/main/java/cn/lonsun/entity/User.java" />
+        <option value="$PROJECT_DIR$/oa-base/oa-base-entity/src/main/java/cn/lonsun/entity/AMockEntity.java" />
+        <option value="$PROJECT_DIR$/oa-generator/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-entity/src/main/java/cn/lonsun/entity/Person.java" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-entity/src/main/java/cn/lonsun/vo/PersonInfoVo.java" />
+        <option value="$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/util/object/ObjectUtil.java" />
+        <option value="$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/exception/TipsMode.java" />
+        <option value="$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/exception/BaseRunTimeException.java" />
+        <option value="$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/util/object/EncryptUtil.java" />
+        <option value="$PROJECT_DIR$/oa-base/oa-base-service-api/src/main/java/cn/lonsun/service/api/JedisClientApi.java" />
+        <option value="$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/resources/spring/applicationContext-base-redis-bean.xml" />
+        <option value="$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/java/cn/lonsun/service/impl/JedisClientUtil.java" />
+        <option value="$PROJECT_DIR$/oa-department/oa-department-service-impl/src/main/java/cn/lonsun/service/impl/DepartmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/conf/Conf.java" />
+        <option value="$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/java/cn/lonsun/service/impl/JedisClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/oa-filter/src/main/java/cn/lonsun/util/SsoLoginUtil.java" />
+        <option value="$PROJECT_DIR$/oa-filter/src/main/java/cn/lonsun/filter/SsoFilter.java" />
+        <option value="$PROJECT_DIR$/oa-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-department/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-rbac/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-rbac/oa-rbac-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-rbac/oa-rbac-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-rbac/oa-rbac-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-rbac/oa-rbac-service-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-rbac/oa-rbac-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/resources/spring/applicationContext-dubbo-reference.xml" />
+        <option value="$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/resources/spring/applicationContext-dubbo.xml" />
+        <option value="$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/util/object/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/java/cn/lonsun/controller/DepartmentController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\work\repository" />
+        <option name="mavenHome" value="D:/lonsun/apache-maven-3.2.1" />
+        <option name="userSettingsFile" value="D:\lonsun\apache-maven-3.2.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="20" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-base-service-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lonsun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lonsun" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lonsun" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lonsun" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lonsun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lonsun" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-filter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lonsun" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lonsun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lonsun" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-rbac-service-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lonsun-goa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lonsun-goa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.lonsun.service.impl" />
+      <recent name="cn.lonsun.exception" />
+      <recent name="cn.lonsun.vo" />
+      <recent name="cn.lonsun.conf" />
+      <recent name="cn.lonsun.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myproject\lonsun-goa\oa-rbac\oa-rbac-service-consumer\src\main\resources\spring" />
+      <recent name="D:\myproject\lonsun-goa\oa-department\oa-department-mapper\src\main\java\cn\lonsun\mapper" />
+      <recent name="D:\myproject\lonsun-goa\oa-department\oa-department-entity\src\main\java\cn\lonsun\entity" />
+      <recent name="D:\myproject\lonsun-goa\oa-common\src\main\java\cn\lonsun\util\httpclient" />
+      <recent name="D:\myproject\lonsun-goa\oa-department\oa-department-service-provider\src\main\resources\spring" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.mybatis-generator">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oa-sso-service-provider" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRedis" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestRedis.testSpringJedisSingle (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oa-sso-service-provider" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRedis" />
+      <option name="METHOD_NAME" value="testSpringJedisSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestRedis.testSpringJedisSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oa-department-service-provider" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRedis" />
+      <option name="METHOD_NAME" value="testSpringJedisSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/oa-generator" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="oa-department-service-consumer" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-server -Xms768m -Xmx768m -XX:PermSize=128m -XX:MaxPermSize=256m -XX:NewSize=192m -XX:MaxNewSize=384m" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="oa-department-service-consumer:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_lonsun-goa_2" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57714" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="oa-department-service-consumer:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="oa-department-service-provider" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-server -Xms768m -Xmx768m -XX:PermSize=128m -XX:MaxPermSize=256m -XX:NewSize=192m -XX:MaxNewSize=384m" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="oa-department-service-provider:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_lonsun-goa" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55845" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="oa-department-service-provider:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.mybatis-generator" />
+      <item itemvalue="Tomcat Server.oa-department-service-provider" />
+      <item itemvalue="Tomcat Server.oa-department-service-consumer" />
+      <item itemvalue="JUnit.TestRedis.testSpringJedisSingle" />
+      <item itemvalue="JUnit.TestRedis.testSpringJedisSingle (1)" />
+      <item itemvalue="JUnit.TestRedis" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRedis.testSpringJedisSingle" />
+        <item itemvalue="JUnit.TestRedis.testSpringJedisSingle (1)" />
+        <item itemvalue="JUnit.TestRedis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12b8e088-d101-425e-b020-beb2bccf98f5" name="Default" comment="" />
+      <created>1523458685926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523458685926</updated>
+      <workItem from="1523458690509" duration="4120000" />
+      <workItem from="1523698684788" duration="9507000" />
+      <workItem from="1523759011581" duration="12633000" />
+      <workItem from="1524275711425" duration="500000" />
+      <workItem from="1524369416226" duration="7700000" />
+      <workItem from="1524395192201" duration="13142000" />
+      <workItem from="1524490429286" duration="4188000" />
+      <workItem from="1524577689869" duration="1109000" />
+      <workItem from="1524663469355" duration="3784000" />
+      <workItem from="1524838879188" duration="2399000" />
+      <workItem from="1525086433418" duration="5353000" />
+      <workItem from="1525142897784" duration="3417000" />
+      <workItem from="1525572559782" duration="2100000" />
+      <workItem from="1525600617888" duration="13899000" />
+      <workItem from="1525698031110" duration="5281000" />
+      <workItem from="1525703813982" duration="818000" />
+      <workItem from="1525956170264" duration="2485000" />
+      <workItem from="1526302013297" duration="1188000" />
+      <workItem from="1526388298252" duration="591000" />
+      <workItem from="1526474421126" duration="1200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestRedis_testSpringJedisSingle_(1) - 2018.04.22 at 14h 57m 38s.xml">
+      <configuration name="TestRedis.testSpringJedisSingle (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis - 2018.04.22 at 17h 55m 03s.xml">
+      <configuration name="TestRedis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis - 2018.04.22 at 17h 55m 49s.xml">
+      <configuration name="TestRedis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_testSpringJedisSingle_(1) - 2018.04.22 at 17h 57m 23s.xml">
+      <configuration name="TestRedis.testSpringJedisSingle (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_testSpringJedisSingle_(1) - 2018.04.22 at 18h 01m 19s.xml">
+      <configuration name="TestRedis.testSpringJedisSingle (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_testSpringJedisSingle_(1) - 2018.04.22 at 19h 34m 47s.xml">
+      <configuration name="TestRedis.testSpringJedisSingle (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis - 2018.04.22 at 19h 35m 25s.xml">
+      <configuration name="TestRedis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_testSpringJedisSingle_(1) - 2018.04.22 at 19h 35m 35s.xml">
+      <configuration name="TestRedis.testSpringJedisSingle (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_testSpringJedisSingle - 2018.04.23 at 22h 19m 58s.xml">
+      <configuration name="TestRedis.testSpringJedisSingle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_testSpringJedisSingle - 2018.04.23 at 22h 22m 46s.xml">
+      <configuration name="TestRedis.testSpringJedisSingle" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="95414000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.22441365" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49297297" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30383795" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3372973" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.15567568" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oa-sso/oa-sso-service-provider/src/test/java/TestRedis.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oa-department/oa-department-service-provider/src/test/java/TestRedis.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oa-department/oa-department-service-provider/src/test/java/TestRedis.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/oa-department/oa-department-service-provider/src/test/java/TestRedis.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/oa-department/oa-department-mapper/src/main/java/cn/lonsun/mapper/PersonMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/util/object/ObjectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-sso/oa-sso-core/src/main/java/cn/lonsun/core/exception/XxlSsoException.java" />
+    <entry file="file://$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/exception/BaseRunTimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/util/object/EncryptUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-sso/oa-sso-service-provider/src/main/java/cn/lonsun/controller/IndexController.java" />
+    <entry file="file://$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/resources/spring/applicationContext-base-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-base/oa-base-entity/src/main/java/cn/lonsun/entity/AMockEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-department/oa-department-entity/src/main/java/cn/lonsun/vo/PersonInfoVo.java" />
+    <entry file="file://$PROJECT_DIR$/oa-generator/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.2/jedis-2.7.2.jar!/redis/clients/util/Sharded.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="101" column="21" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.2/jedis-2.7.2.jar!/redis/clients/jedis/MultiKeyCommands.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.2/jedis-2.7.2.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-base/oa-base-service-api/src/main/java/cn/lonsun/service/api/JedisClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.2/jedis-2.7.2.jar!/redis/clients/jedis/ShardedJedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-department/oa-department-service-provider/src/main/resources/spring/applicationContext-department-redis.xml" />
+    <entry file="file://$PROJECT_DIR$/oa-department/oa-department-service-api/src/main/java/cn/lonsun/service/api/DepartmentService.java" />
+    <entry file="file://$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/resources/spring/applicationContext-base-redis-bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar!/org/apache/commons/lang3/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="335" column="26" selection-start-line="335" selection-start-column="26" selection-end-line="335" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="60" column="15" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/java/cn/lonsun/service/impl/JedisClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="735" column="16" selection-start-line="735" selection-start-column="16" selection-end-line="735" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/conf/Conf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-department/oa-department-service-provider/src/main/resources/spring/applicationContext-dubbo.xml" />
+    <entry file="file://$PROJECT_DIR$/oa-department/oa-department-service-impl/src/main/java/cn/lonsun/service/impl/DepartmentServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/oa-base/oa-base-service-impl/src/main/java/cn/lonsun/service/impl/JedisClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-department/oa-department-service-consumer/src/main/java/cn/lonsun/controller/DepartmentController.java" />
+    <entry file="file://$PROJECT_DIR$/oa-department/oa-department-service-provider/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/oa-sso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-department/oa-department-service-consumer/src/main/resources/spring/applicationContext-dubbo.xml" />
+    <entry file="file://$PROJECT_DIR$/oa-department/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/oa-rbac/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-filter/src/main/java/cn/lonsun/filter/SsoFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-filter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-filter/src/main/java/cn/lonsun/util/SsoLoginUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/resources/spring/applicationContext-dubbo-reference.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/util/object/ResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1085">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/resources/spring/applicationContext-dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-common/src/main/java/cn/lonsun/util/object/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa-rbac/oa-rbac-service-consumer/src/main/java/cn/lonsun/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>oa-department-service-consumer:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>oa-department-service-consumer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24367817" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
