@@ -2,6 +2,7 @@ package cn.lonsun.util;
 
 import cn.lonsun.conf.Conf;
 import cn.lonsun.service.impl.JedisClientUtil;
+import cn.lonsun.util.object.EncryptUtil;
 import cn.lonsun.util.object.JsonUtils;
 import cn.lonsun.vo.PersonInfoVo;
 import org.apache.commons.lang3.StringUtils;
@@ -12,16 +13,19 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.math.BigDecimal;
 import java.util.Set;
+import java.util.UUID;
 
 public class SsoLoginUtil {
     private static Logger logger = LoggerFactory.getLogger(SsoLoginUtil.class);
 
     public static String getToken(HttpServletRequest request) {
-        HttpSession httpSession = request.getSession();
+        //HttpSession httpSession = request.getSession();
         String token = request.getParameter(Conf.OA_SSO_TOKEN);
-        Object sessionToken = httpSession.getAttribute(Conf.OA_SSO_TOKEN);
+        /*Object sessionToken = httpSession.getAttribute(Conf.OA_SSO_TOKEN);
         token = StringUtils.isNotBlank(token) ? token :
-                (sessionToken != null && StringUtils.isNotBlank(sessionToken.toString()) ? sessionToken.toString() : httpSession.getId());
+                (sessionToken != null && StringUtils.isNotBlank(sessionToken.toString()) ? sessionToken.toString() : httpSession.getId());*/
+        String uri = request.getRequestURI();
+        token = StringUtils.isNotBlank(token) ? token : ((StringUtils.isNotBlank(uri) ? "" : EncryptUtil.localSystemEncrypt(uri)) + UUID.randomUUID().toString());
         return token;
     }
 
