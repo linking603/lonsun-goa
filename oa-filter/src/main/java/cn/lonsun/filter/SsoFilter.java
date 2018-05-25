@@ -72,7 +72,6 @@ public class SsoFilter extends HttpServlet implements Filter {
                 // redirect logout
                 String loginPageUrl = ssoServer.concat(Conf.SSO_LOGIN)
                         + "?" + Conf.REDIRECT_URL + "=" + link;
-
                 res.sendRedirect(loginPageUrl);
                 return;
             }
