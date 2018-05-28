@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
-@Service
+@Service("departmentService")
 public class DepartmentServiceImpl implements DepartmentService {
     @Autowired
     private DepartmentMapper departmentMapper;
@@ -35,8 +35,8 @@ public class DepartmentServiceImpl implements DepartmentService {
     public PaginationResultVo getDepartmentPaginationResult(PageQueryVo pageQueryVo) {
         long startTime = System.currentTimeMillis();
         PaginationResultVo result = null;
-        if (StringUtils.isNotBlank(JedisClientUtil.jedisClientServiceImpl.get("department"))) {
-            result = JsonUtils.jsonToPojo(JedisClientUtil.jedisClientServiceImpl.get("department"), PaginationResultVo.class);
+        if (StringUtils.isNotBlank(JedisClientUtil.get().get("department"))) {
+            result = JsonUtils.jsonToPojo(JedisClientUtil.get().get("department"), PaginationResultVo.class);
         }
         if (result != null) {
             long endTime = System.currentTimeMillis();
@@ -61,7 +61,7 @@ public class DepartmentServiceImpl implements DepartmentService {
         //向缓存中添加内容
         //把PaginationResultVo转换成字符串
         String cacheString = JsonUtils.objectToJson(result);
-        JedisClientUtil.jedisClientServiceImpl.set("department", null, cacheString);
+        JedisClientUtil.get().set("department", null, cacheString);
 
         long endTime = System.currentTimeMillis();
         System.out.println("当前程序耗时：" + (endTime - startTime) + "ms");

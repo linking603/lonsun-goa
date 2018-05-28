@@ -34,7 +34,7 @@ public class SsoLoginUtil {
         PersonInfoVo result = null;
         String token = getToken(request);
         if (StringUtils.isNotBlank(token)) {
-            String buf = JedisClientUtil.jedisClientServiceImpl.get(Conf.OA_SSO_TOKEN + token);
+            String buf = JedisClientUtil.jedisClientService.get(Conf.OA_SSO_TOKEN + token);
             if (StringUtils.isNotBlank(buf)) {
                 result = JsonUtils.jsonToPojo(buf, PersonInfoVo.class);
                 if (httpSession.getAttribute(Conf.OA_SSO_TOKEN) == null || !token.equals(httpSession.getAttribute(Conf.OA_SSO_TOKEN).toString()))
@@ -51,32 +51,32 @@ public class SsoLoginUtil {
     public static void login(HttpServletRequest request, PersonInfoVo personInfoVo) {
         HttpSession httpSession = request.getSession();
         String token = getToken(request);
-        JedisClientUtil.jedisClientServiceImpl.set(Conf.OA_SSO_TOKEN + token, null, JsonUtils.objectToJson(personInfoVo));
+        JedisClientUtil.jedisClientService.set(Conf.OA_SSO_TOKEN + token, null, JsonUtils.objectToJson(personInfoVo));
         httpSession.setAttribute(Conf.OA_SSO_TOKEN, token);
         httpSession.setAttribute(Conf.OA_SSO_PERSON, personInfoVo);
     }
 
     public static void logoutLocal(HttpServletRequest request) {
         String token = getToken(request);
-        JedisClientUtil.jedisClientServiceImpl.del(Conf.OA_SSO_TOKEN + token);
+        JedisClientUtil.jedisClientService.del(Conf.OA_SSO_TOKEN + token);
         request.getSession().invalidate();
     }
 
     public static void logoutAll(HttpServletRequest request) {
         String token = getToken(request);
-        String buf = JedisClientUtil.jedisClientServiceImpl.get(Conf.OA_SSO_TOKEN + token);
+        String buf = JedisClientUtil.jedisClientService.get(Conf.OA_SSO_TOKEN + token);
         if (StringUtils.isNotBlank(buf)) {
             PersonInfoVo personInfoVo = JsonUtils.jsonToPojo(buf, PersonInfoVo.class);
             if (personInfoVo != null && personInfoVo.getUserId() != null) {
                 BigDecimal userId = personInfoVo.getUserId();
-                Set<String> keys = JedisClientUtil.jedisClientServiceImpl.getkeys(Conf.OA_SSO_TOKEN + "*");
+                Set<String> keys = JedisClientUtil.jedisClientService.getkeys(Conf.OA_SSO_TOKEN + "*");
                 for (String key : keys) {
                     if (StringUtils.isNotBlank(key)) {
-                        buf = JedisClientUtil.jedisClientServiceImpl.get(key);
+                        buf = JedisClientUtil.jedisClientService.get(key);
                         if (StringUtils.isNotBlank(buf)) {
                             personInfoVo = JsonUtils.jsonToPojo(buf, PersonInfoVo.class);
                             if (personInfoVo != null && personInfoVo.getUserId() != null && userId.longValue() == personInfoVo.getUserId().longValue()) {
-                                JedisClientUtil.jedisClientServiceImpl.del(key);
+                                JedisClientUtil.jedisClientService.del(key);
                             }
                         }
                     }

@@ -19,14 +19,14 @@ import java.math.BigDecimal;
 @RequestMapping("department")
 public class DepartmentController {
     @Autowired
-    private DepartmentService departmentServiceTest;
+    private DepartmentService departmentService;
 
     @RequestMapping("getDepartmentByDepartmentId")
     @ResponseBody
     public Department getDepartmentByDepartmentId(BigDecimal departmentId, HttpServletResponse response, HttpServletRequest request) {
         HttpSession se=request.getSession();
 
-        Department department = departmentServiceTest.getDepartmentByDepartmentId(departmentId);
+        Department department = departmentService.getDepartmentByDepartmentId(departmentId);
         return null;
     }
 
@@ -35,7 +35,7 @@ public class DepartmentController {
     public PaginationResultVo getDepartmentPaginationResult(PageQueryVo pageQueryVo, HttpServletRequest request) {
         HttpSession se=request.getSession();
         se.setAttribute("test",pageQueryVo.getPageSize());
-        PaginationResultVo result = departmentServiceTest.getDepartmentPaginationResult(pageQueryVo);
+        PaginationResultVo result = departmentService.getDepartmentPaginationResult(pageQueryVo);
         return result;
     }
 }

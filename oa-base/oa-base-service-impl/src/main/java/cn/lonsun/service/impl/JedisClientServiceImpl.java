@@ -4,6 +4,7 @@ import cn.lonsun.service.api.JedisClientService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.ShardedJedis;
 import redis.clients.jedis.ShardedJedisPool;
@@ -11,7 +12,7 @@ import redis.clients.jedis.ShardedJedisPool;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-
+@Service("jedisClientService")
 public class JedisClientServiceImpl implements JedisClientService {
     @Autowired
     private ShardedJedisPool shardedJedisPool;
