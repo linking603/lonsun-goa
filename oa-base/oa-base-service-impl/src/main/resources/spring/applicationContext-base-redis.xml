@@ -43,13 +43,15 @@
         <constructor-arg name="shards">
             <set>
                 <bean class="redis.clients.jedis.JedisShardInfo">
-                    <constructor-arg name="host" value="192.168.72.129"></constructor-arg>
-                    <constructor-arg name="port" value="6379"></constructor-arg>
+                    <!--本地<constructor-arg name="host" value="192.168.72.129"></constructor-arg>
+                    <constructor-arg name="port" value="6379"></constructor-arg>-->
+                    <constructor-arg name="host" value="120.31.128.10"></constructor-arg>
+                    <constructor-arg name="port" value="6888"></constructor-arg>
                     <constructor-arg name="timeout" value="10000"></constructor-arg>
                 </bean>
             </set>
         </constructor-arg>
         <constructor-arg name="poolConfig" ref="jedisPoolConfig"></constructor-arg>
     </bean>
-    <bean id="jedisClientUtil" class="cn.lonsun.jedis.JedisClientUtil"></bean>
+    <bean id="jedisClientUtil" class="cn.lonsun.service.impl.JedisClientUtil"></bean>
 </beans>

@@ -18,7 +18,7 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-    <build>
+    <!--<build>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -29,5 +29,5 @@
                 <filtering>false</filtering>
             </resource>
         </resources>
-    </build>
+    </build>-->
 </project>
