@@ -23,4 +23,5 @@
         </constructor-arg>
         <constructor-arg name="poolConfig" ref="jedisPoolConfig"></constructor-arg>
     </bean>
+    <!--<bean id="jedisClientService" class="cn.lonsun.service.impl.JedisClientServiceImpl"></bean>-->
 </beans>

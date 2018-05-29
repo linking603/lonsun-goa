@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>cn.lonsun</groupId>
-            <artifactId>oa-rbac-service-impl</artifactId>
+            <artifactId>oa-rbac-service-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>

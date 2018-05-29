@@ -19,6 +19,5 @@
     <dubbo:registry address="zookeeper://120.31.128.10:6890" check="true"></dubbo:registry>
     <!--<dubbo:registry address="redis://192.168.72.129:6379" check="true"></dubbo:registry>-->
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:reference interface="cn.lonsun.service.api.DepartmentService" id="departmentServiceTest" check="false"/>
-    <!--<import resource="classpath:spring/applicationContext-dubbo-reference.xml" />-->
+    <dubbo:reference interface="cn.lonsun.service.api.DepartmentService" id="departmentService" check="false"/>
 </beans>
