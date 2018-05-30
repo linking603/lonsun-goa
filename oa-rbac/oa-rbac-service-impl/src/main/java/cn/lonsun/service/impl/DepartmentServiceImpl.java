@@ -38,7 +38,8 @@ public class DepartmentServiceImpl implements DepartmentService {
         if (StringUtils.isNotBlank(JedisClientUtil.jedisClientService.get("department"))) {
             result = JsonUtils.jsonToPojo(JedisClientUtil.jedisClientService.get("department"), PaginationResultVo.class);
         }
-        if (result != null) {
+        if (result != null && result.getData() != null && !result.getData().isEmpty() &&
+                result.getPageIndex().intValue() == pageQueryVo.getPageIndex() && result.getPageSize().intValue() == pageQueryVo.getPageSize()) {
             long endTime = System.currentTimeMillis();
             System.out.println("当前程序耗时：" + (endTime - startTime) + "ms");
             return result;
@@ -47,7 +48,7 @@ public class DepartmentServiceImpl implements DepartmentService {
         PageHelper.startPage(pageQueryVo.getPageIndex(), pageQueryVo.getPageSize());
         example.createCriteria();
         example.setOrderByClause("sort_num desc");
-        example.andDepartmentIdIn(Arrays.asList("30239437,30196719,30239641,30239643,".split(",")));
+        //example.andDepartmentIdIn(Arrays.asList("30239437,30196719,30301960,30239643,".split(",")));
         List<Department> list = departmentMapper.selectByExample(example);
         PageInfo<Department> pageInfo = new PageInfo<>(list);
         //创建一个返回值对象
