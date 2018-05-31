@@ -8,6 +8,8 @@ import cn.lonsun.mapper.*;
 import cn.lonsun.service.api.*;
 import cn.lonsun.vo.*;
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +19,7 @@ import java.util.List;
 
 @Service("departmentService")
 public class DepartmentServiceImpl implements DepartmentService {
+    private Logger logger = LoggerFactory.getLogger(getClass());
     @Autowired
     private DepartmentMapper departmentMapper;
     private DepartmentExample example = new DepartmentExample();
@@ -41,7 +44,7 @@ public class DepartmentServiceImpl implements DepartmentService {
         if (result != null && result.getData() != null && !result.getData().isEmpty() &&
                 result.getPageIndex().intValue() == pageQueryVo.getPageIndex() && result.getPageSize().intValue() == pageQueryVo.getPageSize()) {
             long endTime = System.currentTimeMillis();
-            System.out.println("当前程序耗时：" + (endTime - startTime) + "ms");
+            logger.info("当前程序耗时：" + (endTime - startTime) + "ms");
             return result;
         }
         //分页处理
@@ -65,7 +68,7 @@ public class DepartmentServiceImpl implements DepartmentService {
         JedisClientUtil.jedisClientService.set("department", null, cacheString);
 
         long endTime = System.currentTimeMillis();
-        System.out.println("当前程序耗时：" + (endTime - startTime) + "ms");
+        logger.info("当前程序耗时：" + (endTime - startTime) + "ms");
         return result;
     }
 }

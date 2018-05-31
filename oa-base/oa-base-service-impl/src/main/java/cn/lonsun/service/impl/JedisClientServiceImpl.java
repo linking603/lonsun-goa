@@ -38,7 +38,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 logger.error("jedis fail to close", e);
             }
         }
-        logger.info("jedis success to get," + result);
+        logger.info("jedis success to get," + key);
         return result;
     }
 
@@ -57,7 +57,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 logger.error("jedis fail to close", e);
             }
         }
-        logger.info("jedis success to set," + result);
+        logger.info("jedis success to set," + key);
         return result;
     }
 
@@ -76,7 +76,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 logger.error("jedis fail to close", e);
             }
         }
-        logger.info("jedis success to hget," + result);
+        logger.info("jedis success to hget," + hkey);
         return result;
     }
 
@@ -95,7 +95,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 logger.error("jedis fail to close", e);
             }
         }
-        logger.info("jedis success to hset," + result);
+        logger.info("jedis success to hset," + hkey);
         return result;
     }
 
@@ -114,7 +114,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 logger.error("jedis fail to close", e);
             }
         }
-        logger.info("jedis success to incr," + result);
+        logger.info("jedis success to incr," + key);
         return result;
     }
 
@@ -133,7 +133,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 logger.error("jedis fail to close", e);
             }
         }
-        logger.info("jedis success to expire," + result);
+        logger.info("jedis success to expire," + key);
         return result;
     }
 
@@ -152,7 +152,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 logger.error("jedis fail to close", e);
             }
         }
-        logger.info("jedis success to ttl," + result);
+        logger.info("jedis success to ttl," + key);
         return result;
     }
 
@@ -171,7 +171,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 logger.error("jedis fail to close", e);
             }
         }
-        logger.info("jedis success to del," + result);
+        logger.info("jedis success to del," + key);
         return result;
     }
 
@@ -190,7 +190,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 logger.error("jedis fail to close", e);
             }
         }
-        logger.info("jedis success to hdel," + result);
+        logger.info("jedis success to hdel," + key);
         return result;
     }
 
