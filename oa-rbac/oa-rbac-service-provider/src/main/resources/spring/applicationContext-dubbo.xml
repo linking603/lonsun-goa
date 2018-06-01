@@ -14,7 +14,6 @@
        default-lazy-init="false">
     <!-- 提供方应用名称信息，这个相当于起一个名字，我们dubbo管理页面比较清晰是哪个应用暴露出来的 -->
     <dubbo:application name="department_service_provider"></dubbo:application>
-    <dubbo:protocol name="dubbo" host="172.18.10.205" port="20880" />
     <!-- 使用zookeeper注册中心暴露服务地址 -->
     <!--个人<dubbo:registry address="zookeeper://192.168.72.129:2181" check="false" subscribe="false" register=""></dubbo:registry>-->
     <dubbo:registry address="zookeeper://120.31.128.10:6890" check="true" subscribe="false" register=""></dubbo:registry>
