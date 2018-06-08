@@ -12,7 +12,7 @@ public interface JedisClientService {
 
     Long hset(String hkey, String key, String value);
 
-    Long incr(String key);
+    Long incr(String key, Long value);
 
     Long expire(String key, int second);
 
@@ -22,5 +22,7 @@ public interface JedisClientService {
 
     Long hdel(String hkey, String key);
 
-    public Set<String> getkeys(String pattern);
+    Set<String> getkeys(String pattern);
+
+    Long hincrBy(String hkey, String key, Long value);
 }

@@ -12,6 +12,7 @@ import redis.clients.jedis.ShardedJedisPool;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
+
 @Service("jedisClientService")
 public class JedisClientServiceImpl implements JedisClientService {
     @Autowired
@@ -100,11 +101,14 @@ public class JedisClientServiceImpl implements JedisClientService {
     }
 
     @Override
-    public Long incr(String key) {
+    public Long incr(String key, Long value) {
         Long result = null;
         ShardedJedis shardedJedis = shardedJedisPool.getResource();
         try {
-            result = shardedJedis.incr(key);
+            if (value == null)
+                result = shardedJedis.incr(key);
+            else
+                result = shardedJedis.incrBy(key, value);
         } catch (Exception e) {
             logger.error("jedis can not incr", e);
         } finally {
@@ -215,6 +219,25 @@ public class JedisClientServiceImpl implements JedisClientService {
             }
         }
         logger.info("jedis success to getkeys");
+        return result;
+    }
+
+    @Override
+    public Long hincrBy(String hkey, String key, Long value) {
+        Long result = null;
+        ShardedJedis shardedJedis = shardedJedisPool.getResource();
+        try {
+            result = shardedJedis.hincrBy(hkey, key, value);
+        } catch (Exception e) {
+            logger.error("jedis can not hincrBy", e);
+        } finally {
+            try {
+                shardedJedis.close();
+            } catch (Exception e) {
+                logger.error("jedis fail to close", e);
+            }
+        }
+        logger.info("jedis success to hincrBy," + key);
         return result;
     }
 }
