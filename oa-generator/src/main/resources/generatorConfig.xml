@@ -44,7 +44,7 @@
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
         <!-- 指定数据库表 -->
-        <table schema="" tableName="oa_process_instance" domainObjectName="ProcessInstance">
+        <table schema="" tableName="oa_step" domainObjectName="StepEO">
             <ignoreColumn column="remarks" delimitedColumnName="true"/>
             <ignoreColumn column="sort_num" delimitedColumnName="true"/>
             <ignoreColumn column="record_status" delimitedColumnName="true"/>

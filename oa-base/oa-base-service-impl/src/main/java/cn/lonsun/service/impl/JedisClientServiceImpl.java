@@ -210,7 +210,7 @@ public class JedisClientServiceImpl implements JedisClientService {
                 result.addAll(keys);
             }
         } catch (Exception e) {
-            logger.error("jedis can not keys", e);
+            logger.error("jedis can not getkeys", e);
         } finally {
             try {
                 shardedJedis.close();

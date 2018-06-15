@@ -2,7 +2,7 @@ package cn.lonsun.entity;
 
 import java.math.BigDecimal;
 
-public class Step extends AMockEntity {
+public class StepEO extends AMockEntity {
     private BigDecimal stepId;
 
     private String stepName;

@@ -4,14 +4,14 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StepExample {
+public class ProcessEOExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public StepExample() {
+    public ProcessEOExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
@@ -105,133 +105,193 @@ public class StepExample {
             criteria.add(new Criterion(condition, value1, value2));
         }
 
-        public Criteria andStepIdIsNull() {
-            addCriterion("step_id is null");
+        public Criteria andProcessIdIsNull() {
+            addCriterion("process_id is null");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdIsNotNull() {
-            addCriterion("step_id is not null");
+        public Criteria andProcessIdIsNotNull() {
+            addCriterion("process_id is not null");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdEqualTo(BigDecimal value) {
-            addCriterion("step_id =", value, "stepId");
+        public Criteria andProcessIdEqualTo(BigDecimal value) {
+            addCriterion("process_id =", value, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdNotEqualTo(BigDecimal value) {
-            addCriterion("step_id <>", value, "stepId");
+        public Criteria andProcessIdNotEqualTo(BigDecimal value) {
+            addCriterion("process_id <>", value, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdGreaterThan(BigDecimal value) {
-            addCriterion("step_id >", value, "stepId");
+        public Criteria andProcessIdGreaterThan(BigDecimal value) {
+            addCriterion("process_id >", value, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdGreaterThanOrEqualTo(BigDecimal value) {
-            addCriterion("step_id >=", value, "stepId");
+        public Criteria andProcessIdGreaterThanOrEqualTo(BigDecimal value) {
+            addCriterion("process_id >=", value, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdLessThan(BigDecimal value) {
-            addCriterion("step_id <", value, "stepId");
+        public Criteria andProcessIdLessThan(BigDecimal value) {
+            addCriterion("process_id <", value, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdLessThanOrEqualTo(BigDecimal value) {
-            addCriterion("step_id <=", value, "stepId");
+        public Criteria andProcessIdLessThanOrEqualTo(BigDecimal value) {
+            addCriterion("process_id <=", value, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdIn(List<BigDecimal> values) {
-            addCriterion("step_id in", values, "stepId");
+        public Criteria andProcessIdIn(List<BigDecimal> values) {
+            addCriterion("process_id in", values, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdNotIn(List<BigDecimal> values) {
-            addCriterion("step_id not in", values, "stepId");
+        public Criteria andProcessIdNotIn(List<BigDecimal> values) {
+            addCriterion("process_id not in", values, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdBetween(BigDecimal value1, BigDecimal value2) {
-            addCriterion("step_id between", value1, value2, "stepId");
+        public Criteria andProcessIdBetween(BigDecimal value1, BigDecimal value2) {
+            addCriterion("process_id between", value1, value2, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepIdNotBetween(BigDecimal value1, BigDecimal value2) {
-            addCriterion("step_id not between", value1, value2, "stepId");
+        public Criteria andProcessIdNotBetween(BigDecimal value1, BigDecimal value2) {
+            addCriterion("process_id not between", value1, value2, "processId");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameIsNull() {
-            addCriterion("step_name is null");
+        public Criteria andProcessNameIsNull() {
+            addCriterion("process_name is null");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameIsNotNull() {
-            addCriterion("step_name is not null");
+        public Criteria andProcessNameIsNotNull() {
+            addCriterion("process_name is not null");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameEqualTo(String value) {
-            addCriterion("step_name =", value, "stepName");
+        public Criteria andProcessNameEqualTo(String value) {
+            addCriterion("process_name =", value, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameNotEqualTo(String value) {
-            addCriterion("step_name <>", value, "stepName");
+        public Criteria andProcessNameNotEqualTo(String value) {
+            addCriterion("process_name <>", value, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameGreaterThan(String value) {
-            addCriterion("step_name >", value, "stepName");
+        public Criteria andProcessNameGreaterThan(String value) {
+            addCriterion("process_name >", value, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameGreaterThanOrEqualTo(String value) {
-            addCriterion("step_name >=", value, "stepName");
+        public Criteria andProcessNameGreaterThanOrEqualTo(String value) {
+            addCriterion("process_name >=", value, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameLessThan(String value) {
-            addCriterion("step_name <", value, "stepName");
+        public Criteria andProcessNameLessThan(String value) {
+            addCriterion("process_name <", value, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameLessThanOrEqualTo(String value) {
-            addCriterion("step_name <=", value, "stepName");
+        public Criteria andProcessNameLessThanOrEqualTo(String value) {
+            addCriterion("process_name <=", value, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameLike(String value) {
-            addCriterion("step_name like", value, "stepName");
+        public Criteria andProcessNameLike(String value) {
+            addCriterion("process_name like", value, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameNotLike(String value) {
-            addCriterion("step_name not like", value, "stepName");
+        public Criteria andProcessNameNotLike(String value) {
+            addCriterion("process_name not like", value, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameIn(List<String> values) {
-            addCriterion("step_name in", values, "stepName");
+        public Criteria andProcessNameIn(List<String> values) {
+            addCriterion("process_name in", values, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameNotIn(List<String> values) {
-            addCriterion("step_name not in", values, "stepName");
+        public Criteria andProcessNameNotIn(List<String> values) {
+            addCriterion("process_name not in", values, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameBetween(String value1, String value2) {
-            addCriterion("step_name between", value1, value2, "stepName");
+        public Criteria andProcessNameBetween(String value1, String value2) {
+            addCriterion("process_name between", value1, value2, "processName");
             return (Criteria) this;
         }
 
-        public Criteria andStepNameNotBetween(String value1, String value2) {
-            addCriterion("step_name not between", value1, value2, "stepName");
+        public Criteria andProcessNameNotBetween(String value1, String value2) {
+            addCriterion("process_name not between", value1, value2, "processName");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdIsNull() {
+            addCriterion("form_id is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdIsNotNull() {
+            addCriterion("form_id is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdEqualTo(BigDecimal value) {
+            addCriterion("form_id =", value, "formId");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdNotEqualTo(BigDecimal value) {
+            addCriterion("form_id <>", value, "formId");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdGreaterThan(BigDecimal value) {
+            addCriterion("form_id >", value, "formId");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdGreaterThanOrEqualTo(BigDecimal value) {
+            addCriterion("form_id >=", value, "formId");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdLessThan(BigDecimal value) {
+            addCriterion("form_id <", value, "formId");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdLessThanOrEqualTo(BigDecimal value) {
+            addCriterion("form_id <=", value, "formId");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdIn(List<BigDecimal> values) {
+            addCriterion("form_id in", values, "formId");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdNotIn(List<BigDecimal> values) {
+            addCriterion("form_id not in", values, "formId");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdBetween(BigDecimal value1, BigDecimal value2) {
+            addCriterion("form_id between", value1, value2, "formId");
+            return (Criteria) this;
+        }
+
+        public Criteria andFormIdNotBetween(BigDecimal value1, BigDecimal value2) {
+            addCriterion("form_id not between", value1, value2, "formId");
             return (Criteria) this;
         }
     }

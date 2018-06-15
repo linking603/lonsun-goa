@@ -4,14 +4,14 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProcessInstanceExample {
+public class ProcessInstanceEOExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public ProcessInstanceExample() {
+    public ProcessInstanceEOExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
@@ -292,6 +292,66 @@ public class ProcessInstanceExample {
 
         public Criteria andProcessNickNameNotBetween(String value1, String value2) {
             addCriterion("process_nick_name not between", value1, value2, "processNickName");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelIsNull() {
+            addCriterion("process_level is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelIsNotNull() {
+            addCriterion("process_level is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelEqualTo(Short value) {
+            addCriterion("process_level =", value, "processLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelNotEqualTo(Short value) {
+            addCriterion("process_level <>", value, "processLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelGreaterThan(Short value) {
+            addCriterion("process_level >", value, "processLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelGreaterThanOrEqualTo(Short value) {
+            addCriterion("process_level >=", value, "processLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelLessThan(Short value) {
+            addCriterion("process_level <", value, "processLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelLessThanOrEqualTo(Short value) {
+            addCriterion("process_level <=", value, "processLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelIn(List<Short> values) {
+            addCriterion("process_level in", values, "processLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelNotIn(List<Short> values) {
+            addCriterion("process_level not in", values, "processLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelBetween(Short value1, Short value2) {
+            addCriterion("process_level between", value1, value2, "processLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andProcessLevelNotBetween(Short value1, Short value2) {
+            addCriterion("process_level not between", value1, value2, "processLevel");
             return (Criteria) this;
         }
 
