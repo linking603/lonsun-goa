@@ -2,12 +2,14 @@ package cn.lonsun.entity;
 
 import java.math.BigDecimal;
 
-public class ProcessInstance extends AMockEntity {
+public class ProcessInstanceEO extends AMockEntity {
     private BigDecimal processInstanceId;
 
     private BigDecimal processId;
 
     private String processNickName;
+
+    private Short processLevel;
 
     private BigDecimal departmentUnitId;
 
@@ -35,6 +37,14 @@ public class ProcessInstance extends AMockEntity {
 
     public void setProcessNickName(String processNickName) {
         this.processNickName = processNickName == null ? null : processNickName.trim();
+    }
+
+    public Short getProcessLevel() {
+        return processLevel;
+    }
+
+    public void setProcessLevel(Short processLevel) {
+        this.processLevel = processLevel;
     }
 
     public BigDecimal getDepartmentUnitId() {
