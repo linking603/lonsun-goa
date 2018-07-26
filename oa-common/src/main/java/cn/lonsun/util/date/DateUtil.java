@@ -3,6 +3,7 @@ package cn.lonsun.util.date;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 public class DateUtil {
     /**
@@ -286,5 +287,25 @@ public class DateUtil {
             e.printStackTrace();
         }
         return now;
+    }
+
+    //java获取当前月的天数
+    public int getDayOfMonth() {
+        Calendar aCalendar = Calendar.getInstance(Locale.CHINA);
+        int day = aCalendar.getActualMaximum(Calendar.DATE);
+        return day;
+    }
+
+    /**
+     * 获取某年某月有多少天
+     *
+     * @param year
+     * @param month
+     * @return
+     */
+    public int getDayOfMonth(int year, int month) {
+        Calendar c = Calendar.getInstance();
+        c.set(year, month, 0); //输入类型为int类型
+        return c.get(Calendar.DAY_OF_MONTH);
     }
 }
